@@ -1,0 +1,15 @@
+.steps {
+  background-image: url("../../../assets/bg-sidebar-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Temporario */
+  background-position: 100% 100%;
+  height: 11rem;
+  /*  */
+}
+
+@media (min-width: 768px) {
+  .steps {
+    background-image: url("../../../assets/bg-sidebar-desktop.svg");
+  }
+}
