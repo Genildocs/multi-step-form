@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { StepsComponent } from '../../components/steps/steps.component';
-import { FormsComponent } from '../../components/forms/forms.component';
+
+import { RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [StepsComponent, FormsComponent],
+  imports: [StepsComponent, RouterOutlet],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })

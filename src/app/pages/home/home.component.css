@@ -5,3 +5,10 @@
     align-items: center;
   }
 }
+
+.form-container {
+  margin: 0 20px;
+  margin-top: -20px;
+  border-radius: 5px;
+  padding: 20px;
+}
